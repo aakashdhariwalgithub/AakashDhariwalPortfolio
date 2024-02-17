@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash Dhariwal Portfolio - Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+
+      main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-details {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .profile-image {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .rounded-image {
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .social-icons img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .social-icons img:hover {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+  }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(80, 80, 220);
+        font-size: 1.05rem;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      main {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .contact-form {
+        margin-top: 30px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+        color: #9c97f1;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #9c97f1;
+        border-radius: 5px;
+        background-color: #1e2167;
+        color: white;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+      }
+
+      .submit-btn {
+        background-color: #9c97f1;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      footer {
+        background-color: #070931;
+        padding: 12px 0;
+        text-align: center;
+      }
+
+      footer .footer-rights {
+        color: gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <div class="left">Aakash Dhariwal Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/project.html">Projects</a></li>
+                    <li><a href="/certification.html">Certification</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-details">
+            <h1>Contact Me</h1>
+            <p>Name: Aakash Dhariwal</p>
+            <p>Mobile: 9512631494</p>
+            <p>Email: aakashdhariwal15@gmail.com</p>
+            <p>Home Address: 233/2 AFS Daripura, Vadodara, Gujarat </p>
+        </section>
+
+        <section class="profile-image">
+            <!-- Centered rounded image -->
+            <img src="profile.png" alt="Profile Image" class="rounded-image">
+        </section>
+
+        <section class="social-icons">
+            <!-- Add your social media icons and links here -->
+            <a href="https://www.facebook.com/yourprofile" target="_blank"><img src="/icon/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank"><img src="icon/insta.webp" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.github.com/yourprofile" target="_blank"><img src="icon/code.png" alt="GitHub"></a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-rights">
+            Copyright &#169; aakashdhariwalportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
